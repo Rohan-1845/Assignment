@@ -1,11 +1,3 @@
-/*
-let i = 0
-while(i<10)
-{
-console.log(i)
-i++
-}
-*/
 
 // 1. print 1-10 numbers
 let i 
@@ -151,8 +143,10 @@ for(i=1; i<=3; i++)
 {
     for(j=1; j<=3; j++)
     {
-        console.log('The pairs are: ',`(${i}, ${j})`)
+        console.log('The pair is : ',`(${i}, ${j})`)
     }
 }
+
+
 
 
