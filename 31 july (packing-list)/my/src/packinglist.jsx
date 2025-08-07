@@ -6,7 +6,6 @@ function PackingList() {
   ]);
   const [newItem, setNewItem] = useState('');
 
-  // Add item
   const handleAddItem = () => {
     const trimmed = newItem.trim();
     if (trimmed === '') return;
@@ -20,7 +19,7 @@ function PackingList() {
     setNewItem('');
   };
 
-  // Toggle packed status
+
   const togglePacked = (id) => {
     setItems(
       items.map((item) =>
@@ -29,7 +28,7 @@ function PackingList() {
     );
   };
 
-  // Delete item
+
   const deleteItem = (id) => {
     setItems(items.filter((item) => item.id !== id));
   };
