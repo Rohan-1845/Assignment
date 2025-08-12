@@ -1,7 +1,7 @@
 
 // 1. print 1-10 numbers
 let i 
-for(i=1; i<=10; i++)
+for(i=1; i<=10; i0o+)
 {
     console.log(i)
 }
